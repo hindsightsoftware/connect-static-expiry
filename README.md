@@ -15,14 +15,14 @@
 
 ## Installation
 
-    $ npm install static-expiry
+    $ npm install @hindsightsoftware/static-expiry
 
 ## Quick Start
 
 ```js
 var express = require('express');
 var app = express() // or just plain connect, there are no dependencies on express
-  , expiry = require('static-expiry');
+  , expiry = require('@hindsightsoftware/static-expiry');
 // ...
 app.use(expiry(app, { dir: path.join(__dirname, 'public') }));
 app.use(express.static(staticDir));

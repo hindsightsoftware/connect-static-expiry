@@ -1,4 +1,7 @@
 Changelog
+* 2018-12-13 (1.0.3)
+  - Forked to publish security changes and other enhancements (aparkinson)
+
 * 2014-04-04 (0.0.11)
   - support for multiple directories (voxpelli)
 
